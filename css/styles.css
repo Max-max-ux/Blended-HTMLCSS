@@ -464,6 +464,10 @@ button {
 .news-feed-item {
     calc((100% - 60px) / 3);
     max-width: 350px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    width: 350px;
+    height: 359px;
 }
 
 .news-feed-text {
@@ -490,6 +494,123 @@ button {
     line-height: 1.66667;
 }
 
-.news-feed-text2:hover {
+.news-feed-item:hover .news-feed-text2 {
     color: #02897a;
+}
+
+.price {
+    padding-bottom: 50px;
+}
+
+.price-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.price-paragraf {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.price-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 72px;
+}
+
+.price-item {
+    border-radius: 8px;
+    width: 322px;
+    height: 456px;
+    text-align: center;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.price-item:hover {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.price-btn:hover {
+    background-color: #fff;
+    color: #02897a;
+}
+
+.price-subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.66667;
+    margin-bottom: 8px;
+}
+
+.price-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    margin-bottom: 16px;
+}
+
+.cost {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31579;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.dollar {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+    vertical-align: 118%;
+}
+
+.per-month {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+    margin-left: -15px;
+    margin-bottom: 40px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.price-services {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    margin-bottom: 16px;
+}
+
+.price-services-end {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+}
+
+.price-btn {
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    background-color: #02897a;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
 }
