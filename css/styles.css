@@ -462,7 +462,7 @@ button {
 }
 
 .news-feed-item {
-    calc((100% - 60px) / 3);
+    calc ((100% - 60px) / 3);
     max-width: 350px;
     border: 1px solid #dedede;
     border-radius: 8px;
@@ -497,6 +497,8 @@ button {
 .news-feed-item:hover .news-feed-text2 {
     color: #02897a;
 }
+
+/* Price */
 
 .price {
     padding-bottom: 50px;
@@ -536,9 +538,17 @@ button {
     color: #fff;
 }
 
-.price-btn:hover {
+.price-item:hover .price-btn {
     background-color: #fff;
     color: #02897a;
+}
+
+.price-item:hover .cost {
+    color: #fff;
+}
+
+.price-item:hover .dollar {
+    color: #fff;
 }
 
 .price-subtitle {
@@ -606,6 +616,7 @@ button {
 }
 
 .price-btn {
+    border-style: none;
     border-radius: 8px;
     width: 139px;
     height: 44px;
@@ -613,4 +624,8 @@ button {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
+}
+
+.feedback {
+    padding-top: 50px;
 }
