@@ -629,3 +629,57 @@ button {
 .feedback {
     padding-top: 50px;
 }
+
+.feedback-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78125;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.feedback-paragraf {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.75;
+}
+
+.feedback-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+}
+
+.feedback-item {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding-left: 26px;
+    padding-top: 28px;
+    padding-bottom: 16px;
+    width: 327px;
+    height: 240px;
+}
+
+.feedback-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+}
+
+.feedback-item .icon-vector {
+    /* margin-left: 2px; */
+    fill: #2f281e;
+    cursor: pointer;
+    transition: fill 0.2s ease;
+}
+
+.icon-vector:hover .icon-vector:active {
+    fill: #f3cd03;
+}
