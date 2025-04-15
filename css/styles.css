@@ -1,7 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
     color: #22343d;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 ul,
@@ -628,6 +628,7 @@ button {
 
 .feedback {
     padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 .feedback-title {
@@ -660,7 +661,7 @@ button {
     border-radius: 5px;
     padding-left: 26px;
     padding-top: 28px;
-    padding-bottom: 16px;
+    padding-bottom: 28px;
     width: 327px;
     height: 240px;
 }
@@ -671,15 +672,67 @@ button {
     line-height: 1.75;
     letter-spacing: 0.01em;
     color: #737373;
+    margin-bottom: 16px;
+}
+
+.icon-vector-container {
+    margin-bottom: 16px;
 }
 
 .feedback-item .icon-vector {
     /* margin-left: 2px; */
-    fill: #2f281e;
+    fill: #f3cd03;
     cursor: pointer;
     transition: fill 0.2s ease;
 }
 
 .icon-vector:hover .icon-vector:active {
     fill: #f3cd03;
+}
+
+.feedback-author-container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.feedback-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-promo {}
+
+.container-promo {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 32px;
+    background: #02897a;
+    width: 968px;
+    height: 345px;
+}
+
+.promo-text-wrap {
+    max-width: 510px;
+    max-height: 144px;
+    padding-top: 49px;
+    padding-left: 51px;
+}
+
+.promo-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.514;
+    color: #fff;
+    margin-bottom: 46px;
+}
+
+.promo-btn {
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
 }
