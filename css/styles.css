@@ -710,6 +710,7 @@ button {
     background: #02897a;
     width: 968px;
     height: 345px;
+    margin-bottom: 100px;
 }
 
 .promo-text-wrap {
@@ -735,4 +736,38 @@ button {
     font-weight: 600;
     font-size: 20px;
     color: #02897a;
+}
+
+.footer-logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.icon-logo {
+    margin-right: 16px;
+}
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.footer-link {
+    border-radius: 100%;
+    fill: #edfffc;
+}
+
+.footer-item {
+    width: calc((100% - 32px) / 3);
+    width: 40px;
+    height: 40px;
 }
