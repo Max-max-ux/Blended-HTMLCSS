@@ -738,6 +738,11 @@ button {
     color: #02897a;
 }
 
+.footer {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
 .footer-container {
     /* display: flex;
     flex-direction: row;
